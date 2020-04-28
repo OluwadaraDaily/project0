@@ -2,8 +2,138 @@
 <html>
 	<head>
 		<title> My Webpage </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 	<body>
-		Hello, world.
+		<!-- <div class="top">
+			<img src="images/AFRICAN WRITERS.jpg" height="150" width="150">
+			<h1> Oloye Oluwadara </h1>
+		</div> -->
+
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+			<!-- Logo -->
+			<a class="navbar-brand" href=""><img src="images//logo.png" height="50" id="logo"></a>
+			<!-- Logo Text -->
+			<span class="navbar-text"> O'DAILY </span>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html"> Home </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="interests.html"> Interests </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="blog.html"> Blog </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html"> Projects </a>
+				</li>
+			</ul>
+		</nav>
+
+		<!-- Top section -->
+		<section class="jumbotron jumbotron-fluid main">
+			<div class="container">
+				<img id="profile_image" class="img-fluid" src="images/me.jpg" height="50" width="150">
+				<h1 class="display-4"> Hi, my name is Oloye Oluwadara </h1> <hr>
+				<a href="interests.html">
+					<button class="btn btn-primary"> Learn more about me </button>
+				</a>
+			</div>
+		</section>
+		
+		<!-- My Interests -->
+		<section class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4"> <a href="interests.html"> My Interests </a> </h1> <hr>
+				<ul class="list-group">
+					<li class="list-group-item"> Web Development </li>
+					<li class="list-group-item"> Internet of Things (IoT) </li>
+					<!-- <li class="list-group-item"> Embedded Systems </li> -->
+					<!-- <li class="list-group-item"> Software Engineering </li> -->
+					<!-- <li class="list-group-item"> Sports </li> -->
+					<li class="list-group-item"> Theology </li>
+				</ul>
+				<a href="interests.html">
+					<button class="btn btn-default btn-primary"> See More </button>
+				</a>
+			</div>
+		</section>
+
+		<!-- Projects Worked On -->
+		<section class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4"> <a href="projects.html"> List Of Projects Worked On </a> </h1> <hr>
+				<ul class="list-group">
+					<li class="list-group-item"> 
+						<a href="https://thekitchenspace.co"> The Kitchen Space </a> 
+					</li>
+					<li class="list-group-item"> 
+						<a href="https://henriuduku.com"> Henri Uduku </a> 
+					</li>
+					<li class="list-group-item"> 
+						<a href="https://xobakery.ng"> XO Bakery </a> 
+					</li>
+					<li class="list-group-item"> 
+						<a href="https://dwellingatease.com"> Dwelling At Ease </a> 
+					</li>
+				</ul>
+				<a href="projects.html">
+					<button class="btn btn-default btn-primary"> See More </button>
+				</a>
+			</div>
+		</section>
+
+		<!-- Blog Section -->
+		<section class="jumbotron jumbotron-fluid main">
+			<div class="container">
+				<h1 class="display-4"> <a href="blog.html"> My Blog  </a></h1> <hr>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="card" style="width: 18rem;">
+						  <img src="images/corona.jpg" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title"> The Use of Facemask </h5>
+						    <p class="card-text">
+						    	Some quick example text to build on the card title and make up the 	bulk of the card's content.
+						    </p>
+						    <a href="blog.html" class="btn btn-primary">See More</a>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="card" style="width: 18rem;">
+						  <img src="images/pressure.jfif" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title"> What is Pressure? </h5>
+						    <p class="card-text">
+						    	Some quick example text to build on the card title and make up the 	bulk of the card's content.
+						    </p>
+						    <a href="blog.html" class="btn btn-primary">See More</a>
+						  </div>
+						</div>
+					</div>
+
+					<div class="col-lg-4">
+						<div class="card" style="width: 18rem;">
+						  <img src="images/we_rise.png" class="card-img-top" alt="...">
+						  <div class="card-body">
+						    <h5 class="card-title"> We Rise By Lifting Others </h5>
+						    <p class="card-text">
+						    	Some quick example text to build on the card title and make up the 	bulk of the card's content.
+						    </p>
+						    <a href="blog.html" class="btn btn-primary">See More</a>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap");
+a[href^=https] {
+  color: maroon;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Quattrocento Sans";
+}
+
+nav #logo {
+  border-radius: 25px;
+}
+
+a:active {
+  background-color: maroon;
+}
+
+li::before {
+  content: "★";
+}
+
+#profile_image {
+  border-radius: 100px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.interests h3 {
+  font-weight: bolder;
+}
+
+.container .row .col-lg-6 h3 {
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .jumbotron {
+    background-color: #fff;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
